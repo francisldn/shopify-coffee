@@ -11,6 +11,8 @@ hello from the section file
             <h4>{{block.settings.tax_notice_tax}}</h4>
         {% when 'shipping_notice_block' %}
             <h4>{{block.settings.shipping_notice_tax}}</h4>
+        {% when 'product_price_block' %}
+            <h4>{{block.settings.product_price_block}}</h4>
     {% endcase %}
 {% endfor %}
 
@@ -53,6 +55,12 @@ hello from the section file
                     "type": "text"
                 }
             ]
+        },
+        {
+            "type":"product_price_block",
+            "name":"Product Price",
+            "limit": 1,
+            "settings": []
         }
     ]
 }
