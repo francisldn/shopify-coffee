@@ -1,0 +1,53 @@
+{{ 'review-slider.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'review-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'review-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="slider-nav review-container">
+    <div class="review-box">
+        Test 1
+        {% comment %} <img src="quotes.svg" alt="" width="15" height="15" loading="lazy">
+        <span>Lorem ipsum dolor sit amet. Et officiis harum qui amet culpa quo accusantium autem.</span>
+        <div class="user-img">
+            <img src="Images/user (1).jpg" width="20" height="20" alt="user1" loading="lazy">
+        </div>
+        <span>John Doe</span> {% endcomment %}
+    </div>
+    <div class="review-box">
+        Test 2
+        {% comment %} <span>Lorem ipsum dolor sit amet. Et officiism. Ut unde 33 voluptatem consequatur et aspernatur quod vel.</span> {% endcomment %}
+    </div>
+    <div class="review-box">
+        Test 3
+    </div>
+    <div class="review-box">
+        Test 4
+    </div>
+    <div class="review-box">
+        Test 5
+    </div>
+  </div>
+
+<script>
+$(document).ready(function(){
+    $('.review-container').slick({
+        setting-name: setting-value
+    });
+    });
+
+{% comment %} $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+  }); {% endcomment %}
+  $('.review-container').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
+  });
+</script>
