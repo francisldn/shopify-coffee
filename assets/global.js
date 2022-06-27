@@ -626,3 +626,29 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+// function for testimonial carousel - slick implementation
+$(document).ready(function() {
+  console.log('jquery ready')
+  $('.testimonial-slider').slick({
+    dots:true,
+    infinite: true,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+  ]
+}); 
+})

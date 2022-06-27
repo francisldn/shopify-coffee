@@ -46,11 +46,16 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16562302141be2a77f": {
+      "type": "testimonial-slider",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "second",
-    "1656161320a139529e"
+    "1656161320a139529e",
+    "16562302141be2a77f"
   ]
 }

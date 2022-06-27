@@ -48,6 +48,25 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "b2fb9c14-2385-485e-ac0c-b11ebf500f34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Times",
+            "content": "<p>{{ product.metafields.my_fields.shipping.value }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "49d05985-df6d-4915-beb4-ad85f9456baa": {
+          "type": "coffee_info",
+          "settings": {
+            "coffee_taste": "{{ product.metafields.my_fields.coffee_taste.value }}",
+            "coffee_strength": "{{ product.metafields.my_fields.coffee_strength.value }}",
+            "coffee_acidity": "{{ product.metafields.my_fields.coffee_acidity.value }}",
+            "coffee_type": "{{ product.metafields.my_fields.coffee_type.value }}",
+            "coffee_origin": "{{ product.metafields.my_fields.coffee_origin.value }}"
+          }
         }
       },
       "block_order": [
@@ -59,7 +78,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "b2fb9c14-2385-485e-ac0c-b11ebf500f34",
+        "49d05985-df6d-4915-beb4-ad85f9456baa"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -113,7 +134,7 @@
     "1656168280a9fb05ed": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "You may also like ❤️",
         "collection": "coffee",
         "products_to_show": 4,
         "show_view_all": true,

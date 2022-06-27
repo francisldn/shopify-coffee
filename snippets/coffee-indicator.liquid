@@ -1,0 +1,7 @@
+{% for i in (1..5) %}
+    {% if i <= level %}
+      <div class="coffee-strength">{% render 'coffee-bean-filled' %}</div>
+    {% else %}
+      <div class="coffee-strength">{% render 'coffee-bean-empty' %}</div>
+    {% endif %}
+{% endfor %}
