@@ -16,10 +16,10 @@ Tech stacks:
 * Javascript
 * Shopify Liquid
 
-<img src="homepage.jpeg" alt="homepage">
+<img src="homepage.jpg" alt="homepage">
 
-<img src="collection.jpeg" alt="collection">
+<img src="collection.jpg" alt="collection">
 
-<img src="product.jpeg" alt="product">
+<img src="product.jpg" alt="product">
 
-<img src="aboutus.jpeg" alt="about us">
+<img src="aboutus.jpg" alt="about us">
