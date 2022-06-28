@@ -20,6 +20,6 @@ Tech stacks:
 
 <img src="collection.jpg" alt="collection">
 
-<img src="product.jpg" alt="product">
+<img src="productpage.jpg"  alt="product">
 
 <img src="aboutus.jpg" alt="about us">
