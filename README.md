@@ -16,6 +16,10 @@ Tech stacks:
 * Javascript
 * Shopify Liquid
 
+<em>Password to access the store: nopassword</em>
+
+https://coffee-beanie.myshopify.com/
+
 <img src="homepage.jpg" alt="homepage">
 
 <img src="collection.jpg" alt="collection">
